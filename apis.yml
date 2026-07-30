@@ -1,7 +1,30 @@
 aid: littlefund
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/littlefund.png
 name: LittleFund
-description: LittleFund is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  LittleFund (styled Littlefund) was a New York City-based consumer fintech
+  mobile app that let families create long-term savings and gift funds for
+  their children. Instead of physical presents, relatives and friends could
+  contribute money toward a child's fund for birthdays, holidays, and
+  milestones, with funding from bank accounts or credit/debit cards and
+  savings goals tracked in-app. The company was backed by 500 Global (500
+  Startups) and was acquired by UNest, a children's investment and savings
+  platform, around 2020. LittleFund operated as a B2C mobile product and never
+  published a public developer platform, API, or documentation. Its original
+  site at littlefund.co is offline and littlefund.com is now a parked domain;
+  this record is retained as a historical company profile in the API
+  Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/littlefund/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +32,23 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: unest
+x-defunct: true
+x-no-api-surface: true
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Fintech
+- Consumer Finance
+- Savings
+- Gifting
+- Kids
+- Family
+- Mobile App
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +58,8 @@ maintainers:
 common:
 - type: Website
   url: https://littlefund.co
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
